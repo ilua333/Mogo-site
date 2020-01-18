@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
 * { 
  margin: 0px;
  padding: 0px;
@@ -20,8 +22,8 @@ header a {
  color: #fff;
 }
 
-.Logo {
- display:block;
+.logo {
+ display: block;
  margin-top: 20px;
  margin-left: 105px;
  float: left;
@@ -32,25 +34,29 @@ header a {
  cursor: pointer;  
 }
 
-.Navigation {   
+.navigation {   
  margin-right: 28px;
  margin-top: -27px;
  clear: both;
  float: right;
 }
 
-.Navigation a {
+.navigation a {
  display: inline-block;
  padding-right: 46px ;
- line-height:1 ;
+ line-height: 1;
  font-family: 'Montserrat';
  font-weight: 50;
  cursor: pointer;
 }
 
-.Navigation img {
+.navigation img {
  widows: 16px;
  height: 16px;
+}
+
+.navigation a:hover {
+ color: #ffeb3b;
 }
 
 .nav-item:after {
@@ -67,9 +73,11 @@ header a {
 .nav-item:focus:after {
  width: 100%;
 }
+
 .center-header {
  clear: both;
 }
+
 .center-header {
  display: flex;
  position: relative;
@@ -120,6 +128,11 @@ button {
  cursor: pointer;
 }
 
+button:hover {
+ color: #ffeb3b;
+ border-color: #ffeb3b;
+}
+
 .bottom-header {
  display: flex;
  max-width: 100%;
@@ -130,7 +143,7 @@ button {
  width: 278px;
  margin-top: 151px;
  margin-left: 30px;
- padding-top:20px ;
+ padding-top: 20px;
  padding-left: 10px;
  font-family: Montserrat;
  color: #ffffff;
