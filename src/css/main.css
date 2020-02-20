@@ -542,7 +542,7 @@ background: #95e1d3;
 
 /* For all devices UNIQUE DESIGN -------------------------------------------------------------------*/
 .for-all-devices {
- position: relative;
+ position: absolute;
  display: flex;
  margin-top: 100px;
  align-items: center;
@@ -570,7 +570,30 @@ background: #95e1d3;
 }
 
 .for-all-devices-picture {
-  max-width: 100%;
-  height: 850px;
-  background: url(assets/img/For_all_devices_picture.png);
+ position: relative;
+ display: flex;
+ max-width: 100%;
+ height: 850px;
+ margin-top: 7.5%;
+ justify-content: center;
+}
+
+.for-all-devices-picture img {
+ max-width: 100%;
+}
+
+.ipod-picture {
+ position: absolute;
+ width: 512px;
+ height: 624px;
+ margin-top: 226px;
+ margin-left: -28px;
+}
+
+.iphone-picture {
+ position: absolute;
+ width: 512px;
+ height: 624px;
+ margin-top: 347px;
+ margin-left: 345px;
 }
