@@ -259,7 +259,6 @@ margin-top: -250px;
    transition:  0.5s ease ;
   }
 
-  body{background: #000000;} /*----------------------------------------------------------------*/
 
   .about-users-one{
     display: inline-flex;
@@ -332,7 +331,7 @@ margin-top: -250px;
    transition:  0.5s ease ;
   }
 
-  body{background: #000000;}
+ 
 
   .about-users-one{
     display: inline-flex;
@@ -550,3 +549,48 @@ margin-top: -250px;
   color:#fff ;
 }
 
+/* What we do STORY ABOUT US-----------------------------------------------------------------------------*/
+
+.story-about-us{
+  display: flex;
+  position: relative;
+  margin-top: 100px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.story-about-us h2{
+  font-family: 'Kaushan Script';
+  font-weight: 100;
+  color: #000;
+}
+
+.story-about-us h1{
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 1.875rem;
+  color: #000;
+}
+
+.story-about-us h6 { 
+  width: 60px;
+  height: 3px;
+  margin-top: 15px;
+  background: #f38181;
+ }
+ 
+ .photography, .web-desing, .creativity, .seo, .css-html, .digital{
+   width: 360px;
+   height: 122px;
+   background: #000;
+   margin-top: 10px;
+   margin-left: 10px;
+ }
+
+ .amazing-services{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   
+ }
