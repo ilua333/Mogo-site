@@ -539,3 +539,32 @@ background: #95e1d3;
  margin-left: 0px;
  margin-top: 32px;
 }
+
+/* For all devices UNIQUE DESIGN -------------------------------------------------------------------*/
+.for-all-devices {
+  position: relative;
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  flex-direction: column;
+ }
+ 
+ .for-all-devices h2 {
+  font-family: 'Kaushan Script';
+  font-weight: 100;
+  color: #000;
+ }
+ 
+ .for-all-devices h1 {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 1.875rem;
+  color: #000;
+ }
+ 
+ .for-all-devices h6 { 
+  width: 60px;
+  height: 3px;
+  margin-top: 15px;
+  background: #f38181;
+ }
