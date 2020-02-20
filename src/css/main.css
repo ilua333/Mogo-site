@@ -166,440 +166,359 @@ button:hover {
  border-top: 3px #fff solid;
 }
 
-.content-story-about-us{
-    display: flex;
-    position: relative;
-    margin-top: 100px;
-    align-items: center;
-    flex-direction: column;
+/* About us ----------------------------------------------------------------------------------- */
+.content-story-about-us {
+ position: relative;
+ display: flex;   
+ margin-top: 100px;
+ align-items: center;
+ flex-direction: column;
 }
 
-.content-story-about-us h2{
-    font-family: 'Kaushan Script';
-    font-weight: 100;
+.content-story-about-us h2 {
+ font-family: 'Kaushan Script';
+ font-weight: 100;
 }
 
-.content-story-about-us h1{
-    font-family: 'Montserrat';
-    font-weight: 500;
-    font-size: 1.875rem;
+.content-story-about-us h1 {
+ font-family: 'Montserrat';
+ font-weight: 500;
+ font-size: 1.875rem;
 }
 
 .content-story-about-us h6 { 
-    width: 60px;
-    height: 3px;
-    margin-top: 15px;
-    background: #f38181;
-   }
+ width: 60px;
+ height: 3px;
+ margin-top: 15px;
+ background: #f38181;
+}
 
-.content-story-about-us span{
-    margin-top: 30px; 
-   }
+.content-story-about-us span {
+ margin-top: 30px; 
+}
 
 .content-story-about-us p {
-    font-family: 'Roboto';
-    color: #999999;
-    text-align:  center;
+ font-family: 'Roboto';
+ color: #999999;
+ text-align:  center;
 }
 
 /* About us container --------------------------------------------------------------------------------*/
 
-.about-us-picture-effeсt{
-  display: flex;
-  justify-content: center;
+.about-us-picture-effeсt {
+ display: flex;
+ justify-content: center;
 }
 
 /* About us one container ----------------------------------------------------------------------------*/
 
-.about-us-picture-one-container{
- margin-top: 50px;
+.about-us-picture-one-container {
  width: 380px;
  height: 250px;
- 
-}
-.blue-background{
-  display: block;
-  position: relative;
-  width: 380px;
-  height: 250px;
-  background: #95e1d3;
-  
-}
-
-.picture-one{
-display: block;
-position: relative;
-width: 380px;
-height: 250px;
-background: url(https://s19.postimg.cc/snkf68d1v/about_3.jpg) no-repeat;
-margin-top: -250px;
-
-}
-
-.gradient-effect-one{
-  display: block;
-  position: relative;
-  width: 380px;
-  height: 250px;
-  background: url(https://s19.postimg.cc/dze496ccz/users.png);
-  background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
-  margin-top: -250px;
- margin-left: -10px;
-  opacity:0 ;
-  }
-
-  .about-us-picture-one-container:hover .picture-one{
-    margin-top: -260px;
-    margin-left: -10px;
-    transition:  0.5s ease ;
-   }
-   
-  .about-us-picture-one-container:hover .gradient-effect-one{
-   opacity: 1;
-   transition:  0.5s ease ;
-  }
-
-
-  .about-users-one{
-    display: inline-flex;
-    position: absolute;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    margin-top: -156px;
-    margin-left: 124px;
-    opacity: 0;
-    font-family: "Montserrat"; 
-  }
-
-  .about-users-one img{
-    width: 35px;
-    height: 25px;
-    margin-bottom: 5px;
-    
-  }
-  .about-us-picture-one-container:hover .about-users-one{
-    opacity: 1;
-    transition:  0.5s ease ;
-   }
-
-   .about-us-picture-one-container{
  margin-top: 50px;
- width: 380px;
- height: 250px;
  margin-left: 50px;
 }
-.blue-background{
-  display: block;
-  position: relative;
-  width: 380px;
-  height: 250px;
-  background: #95e1d3;
-  
+
+.blue-background {
+ position: relative;
+ display: block;
+ width: 380px;
+ height: 250px;
+ background: #95e1d3;
 }
 
-.picture-one{
-display: block;
-position: relative;
+.picture-one {
+ position: relative;
+ display: block;
+ width: 380px;
+ height: 250px;
+ background: url(https://s19.postimg.cc/snkf68d1v/about_3.jpg) no-repeat;
+ margin-top: -250px;
+}
+
+.gradient-effect-one {
+ position: relative;
+ display: block;
+ width: 380px;
+ height: 250px;
+ margin-top: -250px;
+ margin-left: -10px;
+ background: url(https://s19.postimg.cc/dze496ccz/users.png);
+ background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
+ opacity: 0;
+}
+
+.about-us-picture-one-container:hover .picture-one {
+ margin-top: -260px;
+ margin-left: -10px;
+ transition:  0.5s ease ;
+}
+   
+.about-us-picture-one-container:hover .gradient-effect-one {
+ opacity: 1;
+ transition:  0.5s ease ;
+}
+
+.about-users-one {
+ position: absolute;
+ display: inline-flex;
+ margin-top: -156px;
+ margin-left: 124px;
+ flex-direction: column;
+ align-items: center;
+ color: white;
+ opacity: 0;
+ font-family: "Montserrat"; 
+}
+
+.about-users-one img {
+ width: 35px;
+ height: 25px;
+ margin-bottom: 5px;   
+}
+  
+.about-us-picture-one-container:hover .about-users-one {
+ opacity: 1;
+ transition:  0.5s ease ;
+}
+
+/* About us two container --------------------------------------------------------------------*/
+.about-us-picture-two-container {
+ width: 380px;
+ height: 250px;
+ margin-top: 50px;
+ margin-left: 16px;
+}
+
+.blue-background-two {
+ position: relative;
+ display: block;
+ width: 380px;
+ height: 250px;
+ background: #95e1d3;   
+}
+   
+.picture-two {
+ position: relative;
+ display: block;
+ width: 380px;
+ height: 250px;
+ margin-top: -250px;
+ background: url(https://s19.postimg.cc/pgpvmkq0z/about_1.jpg) no-repeat;
+}
+   
+.gradient-effect-two {
+ position: relative;
+ display: block;
+ width: 380px;
+ height: 250px;
+ margin-top: -250px;
+ margin-left: -10px;
+ background: url(https://s19.postimg.cc/dze496ccz/users.png);
+ background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
+ opacity: 0;
+}
+
+.about-us-picture-two-container:hover .picture-two {
+ margin-top: -260px;
+ margin-left: -10px;
+ transition:  0.5s ease ;
+}
+    
+.about-us-picture-two-container:hover .gradient-effect-two {
+ opacity: 1;
+ transition:  0.5s ease ;
+}
+     
+.about-users-two{
+ position: absolute;
+ display: inline-flex;
+ margin-top: -156px;
+ margin-left: 124px;
+ flex-direction: column;
+ align-items: center;
+ color: white;
+ opacity: 0;
+ font-family: "Montserrat"; 
+}
+   
+.about-users-two img {
+ width: 35px;
+ height: 25px;
+ margin-bottom: 5px;
+}
+
+.about-us-picture-two-container:hover .about-users-two {
+ opacity: 1;
+ transition:  0.5s ease ;
+}
+
+/* About us three container -------------------------------------------------------------------*/
+
+.about-us-picture-three-container {
 width: 380px;
 height: 250px;
-background: url(https://s19.postimg.cc/snkf68d1v/about_3.jpg) no-repeat;
-margin-top: -250px;
-
+margin-top: 50px;
+margin-left: 16px;
 }
 
-.gradient-effect-one{
-  display: block;
-  position: relative;
-  width: 380px;
-  height: 250px;
-  background: url(https://s19.postimg.cc/dze496ccz/users.png);
-  background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
-  margin-top: -250px;
+.blue-background-three {
+position: relative;
+display: block;
+width: 380px;
+height: 250px;
+background: #95e1d3; 
+}
+       
+.picture-three {
+ position: relative;
+ display: block;
+ width: 380px;
+ height: 250px;
+ margin-top: -250px;
+ background: url(https://s19.postimg.cc/u2lzux3ub/about_2.jpg) no-repeat;
+}
+       
+.gradient-effect-three {
+ position: relative;
+ display: block;
+ width: 380px;
+ height: 250px;
+ margin-top: -250px;
  margin-left: -10px;
-  opacity:0 ;
-  }
-
-  .about-us-picture-one-container:hover .picture-one{
-    margin-top: -260px;
-    margin-left: -10px;
-    transition:  0.5s ease ;
-   }
-   
-  .about-us-picture-one-container:hover .gradient-effect-one{
-   opacity: 1;
-   transition:  0.5s ease ;
-  }
-
- 
-
-  .about-users-one{
-    display: inline-flex;
-    position: absolute;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    margin-top: -156px;
-    margin-left: 124px;
-    opacity: 0;
-    font-family: "Montserrat"; 
-  }
-
-  .about-users-one img{
-    width: 35px;
-    height: 25px;
-    margin-bottom: 5px;
-    
-  }
-  .about-us-picture-one-container:hover .about-users-one{
-    opacity: 1;
-    transition:  0.5s ease ;
-   }
-
-   /* About us two container --------------------------------------------------------------------*/
-   .about-us-picture-two-container{
-    margin-top: 50px;
-    width: 380px;
-    height: 250px;
-    margin-left: 16px;
-   }
-   .blue-background-two{
-     display: block;
-     position: relative;
-     width: 380px;
-     height: 250px;
-     background: #95e1d3;
-     
-   }
-   
-   .picture-two{
-   display: block;
-   position: relative;
-   width: 380px;
-   height: 250px;
-   background: url(https://s19.postimg.cc/pgpvmkq0z/about_1.jpg) no-repeat;
-   margin-top: -250px;
-   
-   }
-   
-   .gradient-effect-two{
-     display: block;
-     position: relative;
-     width: 380px;
-     height: 250px;
-     background: url(https://s19.postimg.cc/dze496ccz/users.png);
-     background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
-     margin-top: -250px;
-    margin-left: -10px;
-     opacity:0 ;
-     }
-   
-     .about-us-picture-two-container:hover .picture-two{
-       margin-top: -260px;
-       margin-left: -10px;
-       transition:  0.5s ease ;
-      }
-      
-     .about-us-picture-two-container:hover .gradient-effect-two{
-      opacity: 1;
-      transition:  0.5s ease ;
-     }
-     
-     .about-users-two{
-       display: inline-flex;
-       position: absolute;
-       flex-direction: column;
-       align-items: center;
-       color: white;
-       margin-top: -156px;
-       margin-left: 124px;
-       opacity: 0;
-       font-family: "Montserrat"; 
-     }
-   
-     .about-users-two img{
-       width: 35px;
-       height: 25px;
-       margin-bottom: 5px;
+ background: url(https://s19.postimg.cc/dze496ccz/users.png);
+ background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
+ opacity:0 ;
+}
        
-     }
-     .about-us-picture-two-container:hover .about-users-two{
-       opacity: 1;
-       transition:  0.5s ease ;
-      }
-
-      /* About us three container -------------------------------------------------------------------*/
-
-      .about-us-picture-three-container{
-        margin-top: 50px;
-        width: 380px;
-        height: 250px;
-        margin-left: 16px;
-        
-       }
-       .blue-background-three{
-         display: block;
-         position: relative;
-         width: 380px;
-         height: 250px;
-         background: #95e1d3;
-         
-       }
-       
-       .picture-three{
-       display: block;
-       position: relative;
-       width: 380px;
-       height: 250px;
-       background: url(https://s19.postimg.cc/u2lzux3ub/about_2.jpg) no-repeat;
-       margin-top: -250px;
-       
-       }
-       
-       .gradient-effect-three{
-         display: block;
-         position: relative;
-         width: 380px;
-         height: 250px;
-         background: url(https://s19.postimg.cc/dze496ccz/users.png);
-         background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
-         margin-top: -250px;
-        margin-left: -10px;
-         opacity:0 ;
-         }
-       
-         .about-us-picture-three-container:hover .picture-three{
-           margin-top: -260px;
-           margin-left: -10px;
-           transition:  0.5s ease ;
-          }
+.about-us-picture-three-container:hover .picture-three {
+ margin-top: -260px;
+ margin-left: -10px;
+ transition:  0.5s ease ;
+}
           
-         .about-us-picture-three-container:hover .gradient-effect-three{
-          opacity: 1;
-          transition:  0.5s ease ;
-         }
+.about-us-picture-three-container:hover .gradient-effect-three {
+ opacity: 1;
+ transition:  0.5s ease ;
+}
          
-         .about-users-three{
-           display: inline-flex;
-           position: absolute;
-           flex-direction: column;
-           align-items: center;
-           color: white;
-           margin-top: -156px;
-           margin-left: 124px;
-           opacity: 0;
-           font-family: "Montserrat"; 
-         }
+.about-users-three {
+ position: absolute;
+ display: inline-flex;
+ margin-top: -156px;
+ margin-left: 124px;
+ flex-direction: column;
+ align-items: center;
+ color: white;
+ opacity: 0;
+ font-family: "Montserrat"; 
+}
        
-         .about-users-three img{
-           width: 35px;
-           height: 25px;
-           margin-bottom: 5px;
-           
-         }
-         .about-us-picture-three-container:hover .about-users-three{
-           opacity: 1;
-           transition:  0.5s ease ;
-          }
+.about-users-three img {
+ width: 35px;
+ height: 25px;
+ margin-bottom: 5px;  
+}
+
+.about-us-picture-three-container:hover .about-users-three {
+ opacity: 1;
+ transition:  0.5s ease ;
+}
 
 /* information-table------------------------------------------------------------------------------ */
-
-.information-table{
-  display: flex;
-  flex-direction: row;
-  margin-top: 7.5%;
+.information-table {
+ display: flex;
+ margin-top: 7.5%;
+ flex-direction: row;
 }
 
-.info-container-left{
+.info-container-left {
  width: 113px;
  height: 250px;
  background: #95e1d3;
- border-right: 2px solid #b5eae0 ;
+ border-right: 2px solid #b5eae0;
 }
 
-.info-container-right{
-  width: 57px;
-  height: 250px;
-  background: #95e1d3;
+.info-container-right {
+width: 57px;
+height: 250px;
+background: #95e1d3;
+}
 
- }
-
-.info-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  width: 236px;
-  height: 250px;
-  background: #95e1d3;
-  
-  border-right: 2px solid #b5eae0 ;
+.info-container {
+ position: relative;
+ display: flex;
+ width: 236px;
+ height: 250px;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ background: #95e1d3;
+ border-right: 2px solid #b5eae0 ;
 }          
 
-.info-number{
-  font-family: 'Montserrat';
-  font-size: 4.5rem;
-  font-weight: 700;
-  color: #fff;
+.info-number {
+ font-family: 'Montserrat';
+ font-size: 4.5rem;
+ font-weight: 700;
+ color: #fff;
 }
 
-.info-text{
-  font-family: 'Montserrat';
-  color:#fff ;
+.info-text {
+ font-family: 'Montserrat';
+ color: #fff;
 }
 
 /* What we do STORY ABOUT US-----------------------------------------------------------------------------*/
-
-.story-about-us{
-  display: flex;
-  position: relative;
-  margin-top: 100px;
-  align-items: center;
-  flex-direction: column;
+.story-about-us {
+ position: relative;
+ display: flex;
+ margin-top: 100px;
+ align-items: center;
+ flex-direction: column;
 }
 
-.story-about-us h2{
-  font-family: 'Kaushan Script';
-  font-weight: 100;
-  color: #000;
+.story-about-us h2 {
+ font-family: 'Kaushan Script';
+ font-weight: 100;
+ color: #000;
 }
 
-.story-about-us h1{
-  font-family: 'Montserrat';
-  font-weight: 500;
-  font-size: 1.875rem;
-  color: #000;
+.story-about-us h1 {
+ font-family: 'Montserrat';
+ font-weight: 500;
+ font-size: 1.875rem;
+ color: #000;
 }
 
 .story-about-us h6 { 
-  width: 60px;
-  height: 3px;
-  margin-top: 15px;
-  background: #f38181;
- }
+ width: 60px;
+ height: 3px;
+ margin-top: 15px;
+ background: #f38181;
+}
  
- .photography, .web-desing, .creativity, .seo, .css-html, .digital{
-   width: 360px;
-   height: 122px;
-   background: #fff;
-   margin-top: 0px;
-   margin-left: 0px;
- }
- .photography, .web-desing, .creativity{
-  border-bottom: 1px solid #e5e5e5;
- }
+.photography, .web-desing, .creativity, .seo, .css-html, .digital{
+ width: 360px;
+ height: 122px;
+ margin-top: 0px;
+ margin-left: 0px;
+ background: #fff;
+}
 
- .amazing-services{
-   display: flex;
-   justify-content: center;
-   flex-direction: row;
-   flex-wrap: wrap;
-   margin-top: 2.5%;
-   
- }
+.photography, .web-desing, .creativity {
+ border-bottom: 1px solid #e5e5e5;
+}
 
- .amazing-services h3{
+.amazing-services {
+ display: flex;
+ margin-top: 2.5%;
+ justify-content: center;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+
+.amazing-services h3 {
  position: relative;
  margin-left: 63px;
  margin-top: -43px;
@@ -607,17 +526,16 @@ margin-top: -250px;
  font-size: 14px;
 }
 
-.amazing-services p{
-  position: relative;
-  margin-left: 63px;
-  margin-top: 5px;
-  font-family: 'Roboto';
-  font-size: 15px;
-  color: #999999;
- }
+.amazing-services p {
+ position: relative;
+ margin-left: 63px;
+ margin-top: 5px;
+ font-family: 'Roboto';
+ font-size: 15px;
+ color: #999999;
+}
 
- .amazing-services img{
-  
-  margin-left: 0px;
-  margin-top: 32px;
- }
+.amazing-services img { 
+ margin-left: 0px;
+ margin-top: 32px;
+}
