@@ -582,9 +582,12 @@ margin-top: -250px;
  .photography, .web-desing, .creativity, .seo, .css-html, .digital{
    width: 360px;
    height: 122px;
-   background: #000;
-   margin-top: 10px;
-   margin-left: 10px;
+   background: #fff;
+   margin-top: 0px;
+   margin-left: 0px;
+ }
+ .photography, .web-desing, .creativity{
+  border-bottom: 1px solid #e5e5e5;
  }
 
  .amazing-services{
@@ -592,5 +595,29 @@ margin-top: -250px;
    justify-content: center;
    flex-direction: row;
    flex-wrap: wrap;
+   margin-top: 2.5%;
    
+ }
+
+ .amazing-services h3{
+ position: relative;
+ margin-left: 63px;
+ margin-top: -43px;
+ font-family: 'Montserrat';
+ font-size: 14px;
+}
+
+.amazing-services p{
+  position: relative;
+  margin-left: 63px;
+  margin-top: 5px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #999999;
+ }
+
+ .amazing-services img{
+  
+  margin-left: 0px;
+  margin-top: 32px;
  }
