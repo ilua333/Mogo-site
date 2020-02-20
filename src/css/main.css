@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 * { 
  margin: 0px;
  padding: 0px;
@@ -145,7 +146,7 @@ button:hover {
  margin-left: 30px;
  padding-top: 20px;
  padding-left: 10px;
- font-family: Montserrat;
+ font-family: 'Montserrat';
  color: #ffffff;
  font-size: 18px;
  font-weight: 100;
@@ -163,4 +164,372 @@ button:hover {
 .slider-one {
  content: ""; 
  border-top: 3px #fff solid;
+}
+
+.content-story-about-us{
+    display: flex;
+    position: relative;
+    margin-top: 100px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-story-about-us h2{
+    font-family: 'Kaushan Script';
+    font-weight: 100;
+}
+
+.content-story-about-us h1{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 1.875rem;
+}
+
+.content-story-about-us h6 { 
+    width: 60px;
+    height: 3px;
+    margin-top: 15px;
+    background: #f38181;
+   }
+
+.content-story-about-us span{
+    margin-top: 30px; 
+   }
+
+.content-story-about-us p {
+    font-family: 'Roboto';
+    color: #999999;
+    text-align:  center;
+}
+
+/* About us container --------------------------------------------------------------------------------*/
+
+.about-us-picture-effeсt{
+  display: flex;
+  justify-content: center;
+}
+
+/* About us one container ----------------------------------------------------------------------------*/
+
+.about-us-picture-one-container{
+ margin-top: 50px;
+ width: 380px;
+ height: 250px;
+ 
+}
+.blue-background{
+  display: block;
+  position: relative;
+  width: 380px;
+  height: 250px;
+  background: #95e1d3;
+  
+}
+
+.picture-one{
+display: block;
+position: relative;
+width: 380px;
+height: 250px;
+background: url(https://s19.postimg.cc/snkf68d1v/about_3.jpg) no-repeat;
+margin-top: -250px;
+
+}
+
+.gradient-effect-one{
+  display: block;
+  position: relative;
+  width: 380px;
+  height: 250px;
+  background: url(https://s19.postimg.cc/dze496ccz/users.png);
+  background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
+  margin-top: -250px;
+ margin-left: -10px;
+  opacity:0 ;
+  }
+
+  .about-us-picture-one-container:hover .picture-one{
+    margin-top: -260px;
+    margin-left: -10px;
+   }
+   
+  .about-us-picture-one-container:hover .gradient-effect-one{
+   opacity: 1;
+  }
+  body{background: #000000;}
+  .about-users-one{
+    display: inline-flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: -156px;
+    margin-left: 124px;
+    opacity: 0;
+    font-family: "Montserrat"; 
+  }
+
+  .about-users-one img{
+    width: 35px;
+    height: 25px;
+    margin-bottom: 5px;
+    
+  }
+  .about-us-picture-one-container:hover .about-users-one{
+    opacity: 1;
+   }
+
+   .about-us-picture-one-container{
+ margin-top: 50px;
+ width: 380px;
+ height: 250px;
+ margin-left: 50px;
+}
+.blue-background{
+  display: block;
+  position: relative;
+  width: 380px;
+  height: 250px;
+  background: #95e1d3;
+  
+}
+
+.picture-one{
+display: block;
+position: relative;
+width: 380px;
+height: 250px;
+background: url(https://s19.postimg.cc/snkf68d1v/about_3.jpg) no-repeat;
+margin-top: -250px;
+
+}
+
+.gradient-effect-one{
+  display: block;
+  position: relative;
+  width: 380px;
+  height: 250px;
+  background: url(https://s19.postimg.cc/dze496ccz/users.png);
+  background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
+  margin-top: -250px;
+ margin-left: -10px;
+  opacity:0 ;
+  }
+
+  .about-us-picture-one-container:hover .picture-one{
+    margin-top: -260px;
+    margin-left: -10px;
+   }
+   
+  .about-us-picture-one-container:hover .gradient-effect-one{
+   opacity: 1;
+  }
+  body{background: #000000;}
+  .about-users-one{
+    display: inline-flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: -156px;
+    margin-left: 124px;
+    opacity: 0;
+    font-family: "Montserrat"; 
+  }
+
+  .about-users-one img{
+    width: 35px;
+    height: 25px;
+    margin-bottom: 5px;
+    
+  }
+  .about-us-picture-one-container:hover .about-users-one{
+    opacity: 1;
+   }
+
+   /* About us two container --------------------------------------------------------------------*/
+   .about-us-picture-two-container{
+    margin-top: 50px;
+    width: 380px;
+    height: 250px;
+    margin-left: 16px;
+   }
+   .blue-background-two{
+     display: block;
+     position: relative;
+     width: 380px;
+     height: 250px;
+     background: #95e1d3;
+     
+   }
+   
+   .picture-two{
+   display: block;
+   position: relative;
+   width: 380px;
+   height: 250px;
+   background: url(https://s19.postimg.cc/pgpvmkq0z/about_1.jpg) no-repeat;
+   margin-top: -250px;
+   
+   }
+   
+   .gradient-effect-two{
+     display: block;
+     position: relative;
+     width: 380px;
+     height: 250px;
+     background: url(https://s19.postimg.cc/dze496ccz/users.png);
+     background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
+     margin-top: -250px;
+    margin-left: -10px;
+     opacity:0 ;
+     }
+   
+     .about-us-picture-two-container:hover .picture-two{
+       margin-top: -260px;
+       margin-left: -10px;
+      }
+      
+     .about-us-picture-two-container:hover .gradient-effect-two{
+      opacity: 1;
+     }
+     
+     .about-users-two{
+       display: inline-flex;
+       position: absolute;
+       flex-direction: column;
+       align-items: center;
+       color: white;
+       margin-top: -156px;
+       margin-left: 124px;
+       opacity: 0;
+       font-family: "Montserrat"; 
+     }
+   
+     .about-users-two img{
+       width: 35px;
+       height: 25px;
+       margin-bottom: 5px;
+       
+     }
+     .about-us-picture-two-container:hover .about-users-two{
+       opacity: 1;
+      }
+
+      /* About us three container -------------------------------------------------------------------*/
+
+      .about-us-picture-three-container{
+        margin-top: 50px;
+        width: 380px;
+        height: 250px;
+        margin-left: 16px;
+        
+       }
+       .blue-background-three{
+         display: block;
+         position: relative;
+         width: 380px;
+         height: 250px;
+         background: #95e1d3;
+         
+       }
+       
+       .picture-three{
+       display: block;
+       position: relative;
+       width: 380px;
+       height: 250px;
+       background: url(https://s19.postimg.cc/u2lzux3ub/about_2.jpg) no-repeat;
+       margin-top: -250px;
+       
+       }
+       
+       .gradient-effect-three{
+         display: block;
+         position: relative;
+         width: 380px;
+         height: 250px;
+         background: url(https://s19.postimg.cc/dze496ccz/users.png);
+         background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
+         margin-top: -250px;
+        margin-left: -10px;
+         opacity:0 ;
+         }
+       
+         .about-us-picture-three-container:hover .picture-three{
+           margin-top: -260px;
+           margin-left: -10px;
+          }
+          
+         .about-us-picture-three-container:hover .gradient-effect-three{
+          opacity: 1;
+         }
+         
+         .about-users-three{
+           display: inline-flex;
+           position: absolute;
+           flex-direction: column;
+           align-items: center;
+           color: white;
+           margin-top: -156px;
+           margin-left: 124px;
+           opacity: 0;
+           font-family: "Montserrat"; 
+         }
+       
+         .about-users-three img{
+           width: 35px;
+           height: 25px;
+           margin-bottom: 5px;
+           
+         }
+         .about-us-picture-three-container:hover .about-users-three{
+           opacity: 1;
+          }
+
+/* information-table------------------------------------------------------------------------------ */
+
+.information-table{
+  display: flex;
+  flex-direction: row;
+  margin-top: 7.5%;
+}
+
+.info-container-left{
+ width: 113px;
+ height: 250px;
+ background: #95e1d3;
+ border-right: 2px solid #b5eae0 ;
+}
+
+.info-container-right{
+  width: 57px;
+  height: 250px;
+  background: #95e1d3;
+
+ }
+
+.info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 236px;
+  height: 250px;
+  background: #95e1d3;
+  
+  border-right: 2px solid #b5eae0 ;
+}          
+
+.info-number{
+  font-family: 'Montserrat';
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.info-text{
+  font-family: 'Montserrat';
+  color:#fff ;
 }
