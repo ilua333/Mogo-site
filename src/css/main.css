@@ -188,13 +188,13 @@ button:hover {
 
 .content-story-about-us h6 { 
  width: 60px;
- height: 3px;
- margin-top: 15px;
+ height: 4px;
+ margin-top: 16px;
  background: #f38181;
 }
 
 .content-story-about-us span {
- margin-top: 30px; 
+ margin-top: 32px; 
 }
 
 .content-story-about-us p {
@@ -213,36 +213,36 @@ button:hover {
 /* About us one container ----------------------------------------------------------------------------*/
 
 .about-us-picture-one-container {
- width: 380px;
- height: 250px;
- margin-top: 50px;
- margin-left: 50px;
+ width: 383px;
+ height: 252px;
+ margin-top: 52px;
+ margin-left: 52px;
 }
 
 .blue-background {
  position: relative;
  display: block;
- width: 380px;
- height: 250px;
+ width: 383px;
+ height: 252px;
  background: #95e1d3;
 }
 
 .picture-one {
  position: relative;
  display: block;
- width: 380px;
- height: 250px;
+ width: 383px;
+ height: 252px;
  background: url(https://s19.postimg.cc/snkf68d1v/about_3.jpg) no-repeat;
- margin-top: -250px;
+ margin-top: -252px;
 }
 
 .gradient-effect-one {
  position: relative;
  display: block;
- width: 380px;
- height: 250px;
- margin-top: -250px;
- margin-left: -10px;
+ width: 383px;
+ height: 252px;
+ margin-top: -252px;
+ margin-left: -12px;
  background: url(https://s19.postimg.cc/dze496ccz/users.png);
  background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
  opacity: 0;
@@ -250,7 +250,7 @@ button:hover {
 
 .about-us-picture-one-container:hover .picture-one {
  margin-top: -260px;
- margin-left: -10px;
+ margin-left: -12px;
  transition:  0.5s ease ;
 }
    
@@ -272,9 +272,9 @@ button:hover {
 }
 
 .about-users-one img {
- width: 35px;
- height: 25px;
- margin-bottom: 5px;   
+ width: 36px;
+ height: 24px;
+ margin-bottom: 4px;   
 }
   
 .about-us-picture-one-container:hover .about-users-one {
@@ -284,36 +284,36 @@ button:hover {
 
 /* About us two container --------------------------------------------------------------------*/
 .about-us-picture-two-container {
- width: 380px;
- height: 250px;
- margin-top: 50px;
+ width: 383px;
+ height: 252px;
+ margin-top: 52px;
  margin-left: 16px;
 }
 
 .blue-background-two {
  position: relative;
  display: block;
- width: 380px;
- height: 250px;
+ width: 383px;
+ height: 252px;
  background: #95e1d3;   
 }
    
 .picture-two {
  position: relative;
  display: block;
- width: 380px;
- height: 250px;
- margin-top: -250px;
+ width: 383px;
+ height: 252px;
+ margin-top: -252px;
  background: url(https://s19.postimg.cc/pgpvmkq0z/about_1.jpg) no-repeat;
 }
    
 .gradient-effect-two {
  position: relative;
  display: block;
- width: 380px;
- height: 250px;
- margin-top: -250px;
- margin-left: -10px;
+ width: 383px;
+ height: 252px;
+ margin-top: -252px;
+ margin-left: -12px;
  background: url(https://s19.postimg.cc/dze496ccz/users.png);
  background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
  opacity: 0;
@@ -321,7 +321,7 @@ button:hover {
 
 .about-us-picture-two-container:hover .picture-two {
  margin-top: -260px;
- margin-left: -10px;
+ margin-left: -12px;
  transition:  0.5s ease ;
 }
     
@@ -343,9 +343,9 @@ button:hover {
 }
    
 .about-users-two img {
- width: 35px;
- height: 25px;
- margin-bottom: 5px;
+ width: 36px;
+ height: 24px;
+ margin-bottom: 4px;
 }
 
 .about-us-picture-two-container:hover .about-users-two {
@@ -356,36 +356,36 @@ button:hover {
 /* About us three container -------------------------------------------------------------------*/
 
 .about-us-picture-three-container {
-width: 380px;
-height: 250px;
-margin-top: 50px;
+width: 383px;
+height: 252px;
+margin-top: 52px;
 margin-left: 16px;
 }
 
 .blue-background-three {
 position: relative;
 display: block;
-width: 380px;
-height: 250px;
+width: 383px;
+height: 252px;
 background: #95e1d3; 
 }
        
 .picture-three {
  position: relative;
  display: block;
- width: 380px;
- height: 250px;
- margin-top: -250px;
+ width: 383px;
+ height: 252px;
+ margin-top: -252px;
  background: url(https://s19.postimg.cc/u2lzux3ub/about_2.jpg) no-repeat;
 }
        
 .gradient-effect-three {
  position: relative;
  display: block;
- width: 380px;
- height: 250px;
- margin-top: -250px;
- margin-left: -10px;
+ width: 383px;
+ height: 252px;
+ margin-top: -252px;
+ margin-left: -12px;
  background: url(https://s19.postimg.cc/dze496ccz/users.png);
  background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
  opacity:0 ;
@@ -393,7 +393,7 @@ background: #95e1d3;
        
 .about-us-picture-three-container:hover .picture-three {
  margin-top: -260px;
- margin-left: -10px;
+ margin-left: -12px;
  transition:  0.5s ease ;
 }
           
@@ -415,9 +415,9 @@ background: #95e1d3;
 }
        
 .about-users-three img {
- width: 35px;
- height: 25px;
- margin-bottom: 5px;  
+ width: 36px;
+ height: 24px;
+ margin-bottom: 4px;  
 }
 
 .about-us-picture-three-container:hover .about-users-three {
@@ -433,15 +433,15 @@ background: #95e1d3;
 }
 
 .info-container-left {
- width: 113px;
- height: 250px;
+ width: 112px;
+ height: 252px;
  background: #95e1d3;
  border-right: 2px solid #b5eae0;
 }
 
 .info-container-right {
-width: 57px;
-height: 250px;
+width: 56px;
+height: 252px;
 background: #95e1d3;
 }
 
@@ -449,7 +449,7 @@ background: #95e1d3;
  position: relative;
  display: flex;
  width: 236px;
- height: 250px;
+ height: 252px;
  flex-direction: column;
  align-items: center;
  justify-content: center;
@@ -493,14 +493,14 @@ background: #95e1d3;
 
 .story-about-us h6 { 
  width: 60px;
- height: 3px;
- margin-top: 15px;
+ height: 4px;
+ margin-top: 16px;
  background: #f38181;
 }
  
 .photography, .web-desing, .creativity, .seo, .css-html, .digital{
- width: 360px;
- height: 122px;
+ width: 363px;
+ height: 124px;
  margin-top: 0px;
  margin-left: 0px;
  background: #fff;
@@ -520,16 +520,16 @@ background: #95e1d3;
 
 .amazing-services h3 {
  position: relative;
- margin-left: 63px;
- margin-top: -43px;
+ margin-left: 64px;
+ margin-top: -44px;
  font-family: 'Montserrat';
  font-size: 14px;
 }
 
 .amazing-services p {
  position: relative;
- margin-left: 63px;
- margin-top: 5px;
+ margin-left: 64px;
+ margin-top: 4px;
  font-family: 'Roboto';
  font-size: 15px;
  color: #999999;
@@ -564,8 +564,8 @@ background: #95e1d3;
 
 .for-all-devices h6 { 
  width: 60px;
- height: 3px;
- margin-top: 15px;
+ height: 4px;
+ margin-top: 16px;
  background: #f38181;
 }
 
@@ -573,7 +573,7 @@ background: #95e1d3;
  position: relative;
  display: flex;
  max-width: 100%;
- height: 850px;
+ height: 851px;
  margin-top: 7.5%;
  justify-content: center;
 }
@@ -584,16 +584,16 @@ background: #95e1d3;
 
 .ipod-picture {
  position: absolute;
- width: 512px;
- height: 624px;
- margin-top: 226px;
+ width: 511px;
+ height: 623px;
+ margin-top: 224px;
  margin-left: -28px;
 }
 
 .iphone-picture {
  position: absolute;
- width: 512px;
- height: 624px;
+ width: 419px;
+ height: 623px;
  margin-top: 347px;
- margin-left: 345px;
+ margin-left: 308px;
 }
