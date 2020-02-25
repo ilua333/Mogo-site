@@ -208,6 +208,7 @@ button:hover {
 .about-us-picture-effeсt {
  display: flex;
  justify-content: center;
+ cursor: pointer;
 }
 
 /* About us one container ----------------------------------------------------------------------------*/
