@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 * { 
  margin: 0px;
  padding: 0px;
@@ -145,7 +146,7 @@ button:hover {
  margin-left: 30px;
  padding-top: 20px;
  padding-left: 10px;
- font-family: Montserrat;
+ font-family: 'Montserrat';
  color: #ffffff;
  font-size: 18px;
  font-weight: 100;
@@ -163,4 +164,437 @@ button:hover {
 .slider-one {
  content: ""; 
  border-top: 3px #fff solid;
+}
+
+/* About us ----------------------------------------------------------------------------------- */
+.content-story-about-us {
+ position: relative;
+ display: flex;   
+ margin-top: 100px;
+ align-items: center;
+ flex-direction: column;
+}
+
+.content-story-about-us h2 {
+ font-family: 'Kaushan Script';
+ font-weight: 100;
+}
+
+.content-story-about-us h1 {
+ font-family: 'Montserrat';
+ font-weight: 500;
+ font-size: 1.875rem;
+}
+
+.content-story-about-us h6 { 
+ width: 60px;
+ height: 4px;
+ margin-top: 16px;
+ background: #f38181;
+}
+
+.content-story-about-us span {
+ margin-top: 32px; 
+}
+
+.content-story-about-us p {
+ font-family: 'Roboto';
+ color: #999999;
+ text-align:  center;
+}
+
+/* About us container --------------------------------------------------------------------------------*/
+
+.about-us-picture-effeсt {
+ display: flex;
+ justify-content: center;
+ cursor: pointer;
+}
+
+/* About us one container ----------------------------------------------------------------------------*/
+
+.about-us-picture-one-container {
+ width: 383px;
+ height: 252px;
+ margin-top: 52px;
+ margin-left: 52px;
+}
+
+.blue-background {
+ position: relative;
+ display: block;
+ width: 383px;
+ height: 252px;
+ background: #95e1d3;
+}
+
+.picture-one {
+ position: relative;
+ display: block;
+ width: 383px;
+ height: 252px;
+ background: url(https://s19.postimg.cc/snkf68d1v/about_3.jpg) no-repeat;
+ margin-top: -252px;
+}
+
+.gradient-effect-one {
+ position: relative;
+ display: block;
+ width: 383px;
+ height: 252px;
+ margin-top: -252px;
+ margin-left: -12px;
+ background: url(https://s19.postimg.cc/dze496ccz/users.png);
+ background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
+ opacity: 0;
+}
+
+.about-us-picture-one-container:hover .picture-one {
+ margin-top: -260px;
+ margin-left: -12px;
+ transition:  0.5s ease ;
+}
+   
+.about-us-picture-one-container:hover .gradient-effect-one {
+ opacity: 1;
+ transition:  0.5s ease ;
+}
+
+.about-users-one {
+ position: absolute;
+ display: inline-flex;
+ margin-top: -156px;
+ margin-left: 124px;
+ flex-direction: column;
+ align-items: center;
+ color: white;
+ opacity: 0;
+ font-family: "Montserrat"; 
+}
+
+.about-users-one img {
+ width: 36px;
+ height: 24px;
+ margin-bottom: 4px;   
+}
+  
+.about-us-picture-one-container:hover .about-users-one {
+ opacity: 1;
+ transition:  0.5s ease ;
+}
+
+/* About us two container --------------------------------------------------------------------*/
+.about-us-picture-two-container {
+ width: 383px;
+ height: 252px;
+ margin-top: 52px;
+ margin-left: 16px;
+}
+
+.blue-background-two {
+ position: relative;
+ display: block;
+ width: 383px;
+ height: 252px;
+ background: #95e1d3;   
+}
+   
+.picture-two {
+ position: relative;
+ display: block;
+ width: 383px;
+ height: 252px;
+ margin-top: -252px;
+ background: url(https://s19.postimg.cc/pgpvmkq0z/about_1.jpg) no-repeat;
+}
+   
+.gradient-effect-two {
+ position: relative;
+ display: block;
+ width: 383px;
+ height: 252px;
+ margin-top: -252px;
+ margin-left: -12px;
+ background: url(https://s19.postimg.cc/dze496ccz/users.png);
+ background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
+ opacity: 0;
+}
+
+.about-us-picture-two-container:hover .picture-two {
+ margin-top: -260px;
+ margin-left: -12px;
+ transition:  0.5s ease ;
+}
+    
+.about-us-picture-two-container:hover .gradient-effect-two {
+ opacity: 1;
+ transition:  0.5s ease ;
+}
+     
+.about-users-two{
+ position: absolute;
+ display: inline-flex;
+ margin-top: -156px;
+ margin-left: 124px;
+ flex-direction: column;
+ align-items: center;
+ color: white;
+ opacity: 0;
+ font-family: "Montserrat"; 
+}
+   
+.about-users-two img {
+ width: 36px;
+ height: 24px;
+ margin-bottom: 4px;
+}
+
+.about-us-picture-two-container:hover .about-users-two {
+ opacity: 1;
+ transition:  0.5s ease ;
+}
+
+/* About us three container -------------------------------------------------------------------*/
+
+.about-us-picture-three-container {
+width: 383px;
+height: 252px;
+margin-top: 52px;
+margin-left: 16px;
+}
+
+.blue-background-three {
+position: relative;
+display: block;
+width: 383px;
+height: 252px;
+background: #95e1d3; 
+}
+       
+.picture-three {
+ position: relative;
+ display: block;
+ width: 383px;
+ height: 252px;
+ margin-top: -252px;
+ background: url(https://s19.postimg.cc/u2lzux3ub/about_2.jpg) no-repeat;
+}
+       
+.gradient-effect-three {
+ position: relative;
+ display: block;
+ width: 383px;
+ height: 252px;
+ margin-top: -252px;
+ margin-left: -12px;
+ background: url(https://s19.postimg.cc/dze496ccz/users.png);
+ background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
+ opacity:0 ;
+}
+       
+.about-us-picture-three-container:hover .picture-three {
+ margin-top: -260px;
+ margin-left: -12px;
+ transition:  0.5s ease ;
+}
+          
+.about-us-picture-three-container:hover .gradient-effect-three {
+ opacity: 1;
+ transition:  0.5s ease ;
+}
+         
+.about-users-three {
+ position: absolute;
+ display: inline-flex;
+ margin-top: -156px;
+ margin-left: 124px;
+ flex-direction: column;
+ align-items: center;
+ color: white;
+ opacity: 0;
+ font-family: "Montserrat"; 
+}
+       
+.about-users-three img {
+ width: 36px;
+ height: 24px;
+ margin-bottom: 4px;  
+}
+
+.about-us-picture-three-container:hover .about-users-three {
+ opacity: 1;
+ transition:  0.5s ease ;
+}
+
+/* information-table------------------------------------------------------------------------------ */
+.information-table {
+ display: flex;
+ margin-top: 7.5%;
+ flex-direction: row;
+}
+
+.info-container-left {
+ width: 112px;
+ height: 252px;
+ background: #95e1d3;
+ border-right: 2px solid #b5eae0;
+}
+
+.info-container-right {
+width: 56px;
+height: 252px;
+background: #95e1d3;
+}
+
+.info-container {
+ position: relative;
+ display: flex;
+ width: 236px;
+ height: 252px;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ background: #95e1d3;
+ border-right: 2px solid #b5eae0 ;
+}          
+
+.info-number {
+ font-family: 'Montserrat';
+ font-size: 4.5rem;
+ font-weight: 700;
+ color: #fff;
+}
+
+.info-text {
+ font-family: 'Montserrat';
+ color: #fff;
+}
+
+/* What we do STORY ABOUT US-----------------------------------------------------------------------------*/
+.story-about-us {
+ position: relative;
+ display: flex;
+ margin-top: 100px;
+ align-items: center;
+ flex-direction: column;
+}
+
+.story-about-us h2 {
+ font-family: 'Kaushan Script';
+ font-weight: 100;
+ color: #000;
+}
+
+.story-about-us h1 {
+ font-family: 'Montserrat';
+ font-weight: 500;
+ font-size: 1.875rem;
+ color: #000;
+}
+
+.story-about-us h6 { 
+ width: 60px;
+ height: 4px;
+ margin-top: 16px;
+ background: #f38181;
+}
+ 
+.photography, .web-desing, .creativity, .seo, .css-html, .digital{
+ width: 363px;
+ height: 124px;
+ margin-top: 0px;
+ margin-left: 0px;
+ background: #fff;
+}
+
+.photography, .web-desing, .creativity {
+ border-bottom: 1px solid #e5e5e5;
+}
+
+.amazing-services {
+ display: flex;
+ margin-top: 2.5%;
+ justify-content: center;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+
+.amazing-services h3 {
+ position: relative;
+ margin-left: 64px;
+ margin-top: -44px;
+ font-family: 'Montserrat';
+ font-size: 14px;
+}
+
+.amazing-services p {
+ position: relative;
+ margin-left: 64px;
+ margin-top: 4px;
+ font-family: 'Roboto';
+ font-size: 15px;
+ color: #999999;
+}
+
+.amazing-services img { 
+ margin-left: 0px;
+ margin-top: 32px;
+}
+
+/* For all devices UNIQUE DESIGN -------------------------------------------------------------------*/
+.for-all-devices {
+ position: absolute;
+ display: flex;
+ margin-top: 100px;
+ align-items: center;
+ flex-direction: column;
+}
+
+.for-all-devices h2 {
+ font-family: 'Kaushan Script';
+ font-weight: 100;
+ color: #000;
+}
+
+.for-all-devices h1 {
+ font-family: 'Montserrat';
+ font-weight: 500;
+ font-size: 1.875rem;
+ color: #000;
+}
+
+.for-all-devices h6 { 
+ width: 60px;
+ height: 4px;
+ margin-top: 16px;
+ background: #f38181;
+}
+
+.for-all-devices-picture {
+ position: relative;
+ display: flex;
+ max-width: 100%;
+ height: 851px;
+ margin-top: 7.5%;
+ justify-content: center;
+}
+
+.for-all-devices-picture img {
+ max-width: 100%;
+}
+
+.ipod-picture {
+ position: absolute;
+ width: 511px;
+ height: 623px;
+ margin-top: 224px;
+ margin-left: -28px;
+}
+
+.iphone-picture {
+ position: absolute;
+ width: 419px;
+ height: 623px;
+ margin-top: 347px;
+ margin-left: 308px;
 }
