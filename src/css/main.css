@@ -236,6 +236,7 @@ button:hover {
  height: 252px;
  background: url(https://s19.postimg.cc/snkf68d1v/about_3.jpg) no-repeat;
  margin-top: -252px;
+ transition:  0.5s  ease ;
 }
 
 .gradient-effect-one {
@@ -248,6 +249,7 @@ button:hover {
  background: url(https://s19.postimg.cc/dze496ccz/users.png);
  background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
  opacity: 0;
+ transition:  0.5s  ease ;
 }
 
 .about-us-picture-one-container:hover .picture-one {
@@ -270,7 +272,8 @@ button:hover {
  align-items: center;
  color: white;
  opacity: 0;
- font-family: "Montserrat"; 
+ font-family: "Montserrat";
+ transition:  0.5s  ease ; 
 }
 
 .about-users-one img {
@@ -307,6 +310,7 @@ button:hover {
  height: 252px;
  margin-top: -252px;
  background: url(https://s19.postimg.cc/pgpvmkq0z/about_1.jpg) no-repeat;
+ transition:  0.5s  ease ;
 }
    
 .gradient-effect-two {
@@ -319,6 +323,7 @@ button:hover {
  background: url(https://s19.postimg.cc/dze496ccz/users.png);
  background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
  opacity: 0;
+ transition:  0.5s  ease ;
 }
 
 .about-us-picture-two-container:hover .picture-two {
@@ -342,6 +347,7 @@ button:hover {
  color: white;
  opacity: 0;
  font-family: "Montserrat"; 
+ transition:  0.5s  ease ;
 }
    
 .about-users-two img {
@@ -379,6 +385,7 @@ background: #95e1d3;
  height: 252px;
  margin-top: -252px;
  background: url(https://s19.postimg.cc/u2lzux3ub/about_2.jpg) no-repeat;
+ transition:  0.5s  ease ;
 }
        
 .gradient-effect-three {
@@ -391,6 +398,7 @@ background: #95e1d3;
  background: url(https://s19.postimg.cc/dze496ccz/users.png);
  background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
  opacity:0 ;
+ transition:  0.5s  ease ;
 }
        
 .about-us-picture-three-container:hover .picture-three {
@@ -414,6 +422,7 @@ background: #95e1d3;
  color: white;
  opacity: 0;
  font-family: "Montserrat"; 
+ transition:  0.5s  ease ;
 }
        
 .about-users-three img {
@@ -948,6 +957,7 @@ background: #95e1d3;
  margin-top: -472px;
  background: url(https://nevada18.github.io/img/our_team1.jpg) no-repeat;
  background-position: -105px 0;
+ transition:  0.5s  ease ;
 }
  
 .meet-our-team-gradient-effect-one {
@@ -960,6 +970,7 @@ background: #95e1d3;
  background: url(https://s19.postimg.cc/dze496ccz/users.png);
  background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
  opacity: 0;
+ transition:  0.5s  ease ;
 }
  
 .meet-our-team-picture-one-container:hover .meet-our-team-picture-one {
@@ -984,6 +995,7 @@ background: #95e1d3;
  justify-content: center;
  align-items: center;
  opacity: 0;
+ transition:  0.5s  ease ;
 }
     
 .meet-our-team-picture-one-container:hover .meet-our-team-social-users-one {
@@ -1048,6 +1060,7 @@ background: #95e1d3;
  margin-top: -472px;
  background: url(https://nevada18.github.io/img/our_team2.jpg) no-repeat;
  background-position: -120px -115px;
+ transition:  0.5s  ease ;
 }
     
 .meet-our-team-gradient-effect-two {
@@ -1060,6 +1073,7 @@ background: #95e1d3;
  background: url(https://s19.postimg.cc/dze496ccz/users.png);
  background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
  opacity: 0;
+ transition:  0.5s  ease ;
 }
  
 .meet-our-team-picture-two-container:hover .meet-our-team-picture-two {
@@ -1084,6 +1098,7 @@ background: #95e1d3;
  justify-content: center;
  align-items: center;
  opacity: 0;
+ transition:  0.5s  ease ;
 }
      
 .meet-our-team-picture-two-container:hover .meet-our-team-about-users-two {
@@ -1128,6 +1143,7 @@ background: #95e1d3;
  margin-top: -472px;
  background: url(https://nevada18.github.io/img/our_team3.jpg) no-repeat;
  background-position: -235px 0;
+ transition:  0.5s  ease ;
 }
         
 .meet-our-team-gradient-effect-three {
@@ -1140,6 +1156,7 @@ background: #95e1d3;
  background: url(https://s19.postimg.cc/dze496ccz/users.png);
  background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
  opacity:0 ;
+ transition:  0.5s  ease ;
 }
         
 .meet-our-team-picture-three-container:hover .meet-our-team-picture-three {
@@ -1164,6 +1181,7 @@ background: #95e1d3;
  justify-content: center;
  align-items: center;
  opacity: 0;
+ transition:  0.5s  ease ;
 }
 
 .meet-our-team-facebook-three {
@@ -1173,6 +1191,7 @@ background: #95e1d3;
  background: #fce38a url(https://nevada18.github.io/img/social-pic.png) no-repeat;
  background-position: 0px -1px;
  border-right: 1px solid #f38181;
+ transition:  0.5s  ease ;
 } 
 
 .meet-our-team-facebook-three:hover {
@@ -1188,6 +1207,7 @@ background: #95e1d3;
  background: #fce38a url(https://nevada18.github.io/img/social-pic.png) no-repeat;
  background-position: -54px -1px;
  border-right: 1px solid #f38181;
+ transition:  0.5s  ease ;
 } 
 
 .meet-our-team-twiter-three:hover {
@@ -1203,6 +1223,7 @@ background: #95e1d3;
  background: #fce38a url(https://nevada18.github.io/img/social-pic.png) no-repeat;
  background-position: -105px -1px;
  border-right: 1px solid #f38181;
+ transition:  0.5s  ease ;
 } 
 
 .meet-our-team-pinteres-three:hover {
@@ -1217,6 +1238,7 @@ background: #95e1d3;
  margin-top: 15px;
  background: #fce38a url(https://nevada18.github.io/img/social-pic.png) no-repeat;
  background-position: -156px -1px;
+ transition:  0.5s  ease ;
 } 
 
 .meet-our-team-instagramm-three:hover {
@@ -1344,6 +1366,7 @@ background: #95e1d3;
  background: url(https://nevada18.github.io/img/our_work-ic.png);
  background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
  opacity:0 ;
+ transition:  0.5s  ease ;
 }
          
 .some-of-our-work-picture-one-container:hover .some-of-our-work-picture-one {
@@ -1365,6 +1388,7 @@ background: #95e1d3;
  color: white;
  opacity: 0;
  font-family: "Montserrat"; 
+ transition:  0.5s  ease ;
 }
          
 .some-of-our-work-users-one img {
@@ -1411,6 +1435,7 @@ background: #95e1d3;
  background: url(https://nevada18.github.io/img/our_work-ic.png);
  background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
  opacity:0 ;
+ transition:  0.5s  ease ;
 }
          
 .some-of-our-work-picture-two-container:hover .some-of-our-work-picture-two {
@@ -1431,7 +1456,8 @@ background: #95e1d3;
  align-items: center;
  color: white;
  opacity: 0;
- font-family: "Montserrat"; 
+ font-family: "Montserrat";
+ transition:  0.5s  ease ; 
 }
          
 .some-of-our-work-users-two img {
@@ -1477,6 +1503,7 @@ background: #95e1d3;
  background: url(https://nevada18.github.io/img/our_work-ic.png);
  background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
  opacity:0 ;
+ transition:  0.5s  ease ;
 }
            
 .some-of-our-work-picture-three-container:hover .some-of-our-work-picture-three {
@@ -1497,7 +1524,8 @@ background: #95e1d3;
  align-items: center;
  color: white;
  opacity: 0;
- font-family: "Montserrat"; 
+ font-family: "Montserrat";
+ transition:  0.5s  ease ; 
 }
            
 .some-of-our-work-users-three img {
@@ -1545,6 +1573,7 @@ background: #95e1d3;
  background: url(https://nevada18.github.io/img/our_work-ic.png);
  background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
  opacity:0 ;
+ transition:  0.5s  ease ;
 }
          
 .some-of-our-work-picture-four-container:hover .some-of-our-work-picture-four {
@@ -1565,7 +1594,8 @@ background: #95e1d3;
  align-items: center;
  color: white;
  opacity: 0;
- font-family: "Montserrat"; 
+ font-family: "Montserrat";
+ transition:  0.5s  ease ; 
 }
          
 .some-of-our-work-users-four img {
@@ -1615,6 +1645,7 @@ background: #95e1d3;
  background: url(https://nevada18.github.io/img/our_work-ic.png);
  background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
  opacity:0 ;
+ transition:  0.5s  ease ;
 }
          
 .some-of-our-work-picture-five-container:hover .some-of-our-work-picture-five {
@@ -1635,7 +1666,8 @@ background: #95e1d3;
  align-items: center;
  color: white;
  opacity: 0;
- font-family: "Montserrat"; 
+ font-family: "Montserrat";
+ transition:  0.5s  ease ; 
 }
          
 .some-of-our-work-users-five img {
@@ -1687,6 +1719,7 @@ background: #95e1d3;
  background: url(https://nevada18.github.io/img/our_work-ic.png);
  background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
  opacity:0 ;
+ transition:  0.5s  ease ;
 }
            
 .some-of-our-work-picture-six-container:hover .some-of-our-work-picture-six {
@@ -1707,7 +1740,8 @@ background: #95e1d3;
  align-items: center;
  color: white;
  opacity: 0;
- font-family: "Montserrat"; 
+ font-family: "Montserrat";
+ transition:  0.5s  ease ; 
 }
            
 .some-of-our-work-users-six img {
@@ -1754,6 +1788,7 @@ background: #95e1d3;
  background: url(https://nevada18.github.io/img/our_work-ic.png);
  background-image: linear-gradient(to top, rgba(252, 227, 138, 0.81) 0%, rgba(243, 129, 129, 0.81) 100%);
  opacity:0 ;
+ transition:  0.5s  ease ;
 }
              
 .some-of-our-work-picture-seven-container:hover .some-of-our-work-picture-seven {
@@ -1774,7 +1809,8 @@ background: #95e1d3;
  align-items: center;
  color: white;
  opacity: 0;
- font-family: "Montserrat"; 
+ font-family: "Montserrat";
+ transition:  0.5s  ease ; 
 }
              
 .some-of-our-work-users-seven img {
