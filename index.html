@@ -172,12 +172,12 @@
    </div>
    
    <div class="navigaonusing">
-    <img src="assets/img/PHOTOGRAPHY.jpg" alt="">
+    <img class="navigaonusing-picture" src="assets/img/PHOTOGRAPHY.jpg" alt="">
     <div class="gaonutosal">  
      <div class="pesontedan">
       <img src="assets/img/picture-list-one.png" alt="">
-      <input id="pesontedan-one" type="checkbox" name="pesontedans">
-      <label for="pesontedan-one">PHOTOGRAPHY</label>
+      <input id="pesontedan-one" type="radio" name="pesontedans">
+      <label for="pesontedan-one"><p>PHOTOGRAPHY</p></label>
       <div class="pesontedan-content">
        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
@@ -185,8 +185,8 @@
   
      <div class="pesontedan">
       <img src="assets/img/picture-list-two.png" alt="">
-      <input id="pesontedan-two" type="checkbox" name="pesontedans">
-      <label for="pesontedan-two">CREATIVITY</label>
+      <input id="pesontedan-two" type="radio" name="pesontedans">
+      <label for="pesontedan-two"><p>CREATIVITY</p></label>
       <div class="pesontedan-content">
        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
@@ -194,8 +194,8 @@
   
      <div class="pesontedan">
       <img src="assets/img/picture-list-three.png" alt="">
-      <input id="pesontedan-three" type="checkbox" name="pesontedans">
-      <label for="pesontedan-three">WEB DESIGN</label>
+      <input id="pesontedan-three" type="radio" name="pesontedans">
+      <label for="pesontedan-three"><p>WEB DESIGN</p></label>
       <div class="pesontedan-content">
        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
@@ -207,13 +207,23 @@
    <div class="slideshow-container">
     <div class="my-slides fade">
      <div class="numbertext"></div>
-     <img src="assets/img/Reviews-two.png" style="width: 100%">
+     <div class="slider-items">
+      <img src="assets/img/Slider_picture.jpg" >
+      <div class="description-slider">
+       <span><p class="slider-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p> <p>quis nostrud exercitation"</p></p></span>
+       <div class="vektor-and-text">
+        <h6></h6>
+        <p class="slider-text-vektor">Jon Doe</p>
+       </div>
+      </div>
+     </div>
+     
      <div class="text"></div>
     </div>
 
     <div class="my-slides fade two">
      <div class="numbertext"></div>
-     <img src="assets/img/Reviews-one.png" style="width: 100%">
+     <img src="assets/img/Reviews-one.png" >
      <div class="text"></div>
     </div>
 
@@ -239,10 +249,7 @@
       <div class="meet-our-team-pinteres-three"></div>
       <div class="meet-our-team-instagramm-three"></div>
      </div>
-     <div class="meet-our-team-description">
-      <p class="meet-our-team-text">MATTHEW DIX</p>
-      <p class="meet-our-team-textt">Graphic Design</p>
-     </div>
+     
     </div>
   
     <div class="meet-our-team-picture-two-container">
@@ -255,10 +262,7 @@
       <div class="meet-our-team-pinteres-three"></div>
       <div class="meet-our-team-instagramm-three"></div>
      </div>
-     <div class="meet-our-team-description">
-      <p class="meet-our-team-text-two">CHRISTOPHER CAMPBELL</p>
-      <p class="meet-our-team-textt-two">Branding/UX design</p>
-     </div>
+     
     </div>
 
     <div class="meet-our-team-picture-three-container">
@@ -271,10 +275,21 @@
       <div class="meet-our-team-pinteres-three"></div>
       <div class="meet-our-team-instagramm-three"></div>
      </div>
+     
+    </div>
+    <div class="meet-our-team-description-text">
+     <div class="meet-our-team-description">
+      <p class="meet-our-team-text">MATTHEW DIX</p>
+      <p class="meet-our-team-textt">Graphic Design</p>
+     </div>
+     <div class="meet-our-team-description">
+      <p class="meet-our-team-text-two">CHRISTOPHER CAMPBELL</p>
+      <p class="meet-our-team-textt-two">Branding/UX design</p>
+     </div>
      <div class="meet-our-team-description">
       <p class="meet-our-team-text-three">MICHAEL FERTIG</p>
       <p class="meet-our-team-textt-three">Developer</p>
-     </div>
+     </div>   
     </div>
    </div>
 
@@ -294,7 +309,7 @@
     <h6></h6>
     <span><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad <p>veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></p></span>
    </div>
-
+   <div class="container-some-of-our-work">
    <div class="some-of-our-work-container">
     <div class="some-of-our-work-picture-one-container">
      <div class="some-of-our-work-picture-one"></div>
@@ -363,28 +378,35 @@
      </div>
     </div>    
    </div>
-
+   </div>
   </section>
 
   <section>
     <!-- SLIDER-TWO ----------------------------------------------------------------------------------->
-   <div class="slideshow-containerr">
-    <div class="my-slides fade">
-     <div class="numbertext"></div>
-     <img src="assets/img/Sleder-two.jpg" style="width: 100%">
-     <div class="text"></div>
-    </div>
+    <div class="slideshow-container-two">
+        <div class="my-slides fade-two">
+         <div class="numbertext-two"></div>
+         <div class="slider-items-two">
+          <img src="assets/img/Slider_picture_two.jpg" >
+          <div class="description-slider-two">
+           <span><p class="slider-text-two">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p> <p>quis nostrud exercitation"</p></p></span>
+           <div class="vektor-and-text-two">
+            <h6></h6>
+            <p class="slider-text-vektor-two">Joshua Earle</p>
+           </div>
+          </div>
       
-    <div class="my-slides fade two">
-     <div class="numbertext"></div>
+    <div class="my-slides fade two-two">
+     <div class="numbertext-two"></div>
      <img src="assets/img/Sleder.jpg" style="width: 100%">
-     <div class="text"></div>
+     <div class="text-two"></div>
     </div>
       
-    <a  class="prev" onclick="plusSlides(-1)">&#10094</a>
-    <a  class="next" onclick="plusSlides(1)">&#10095</a>
+    <a  class="prev-two" onclick="plusSlides(-1)">&#10094</a>
+    <a  class="next-two" onclick="plusSlides(1)">&#10095</a>
    </div>
-
+        </div>
+    </div>
 <!-- --------------------------what-people-say-content------------------------------------------------ -->
    <div class="what-people-say-content">
     <img class="happy-clients-picture" src="assets/img/happy_clients.png" alt="">
